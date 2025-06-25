@@ -2,10 +2,8 @@
   "name": "semanticscholarjs",
   "version": "1.0.5",
   "description": "Wrapper for the Semantic Scholar API",
-  "main": "build/main/index.js",
-  "typings": "build/main/index.d.ts",
-  "module": "build/module/index.js",
-  "repository": "https://github.com/thomasuebi/semanticscholarjs",
+  "main": "src/index.ts",
+  "repository": "https://github.com/garrylachman/semanticscholarjs",
   "license": "MIT",
   "keywords": [],
   "scripts": {
@@ -73,7 +71,7 @@
     "typescript": "^4.9.5"
   },
   "files": [
-    "build/main",
+    "src/**/*.ts",
     "build/module",
     "!**/*.spec.*",
     "!**/*.json",
