@@ -31,7 +31,7 @@ export class ApiRequester {
 
     const retryOptions = {
       retries: 10,
-      minTimeout: 30000, // 30 seconds
+      minTimeout: 3000, // 30 seconds
       factor: 1,
       onRetry: (error: Error) => {
         console.log(`Retrying due to ${error.message}`);
